@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Dynamic Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+            animation: slideIn 1s ease-out;
+        }
+        section {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            text-align: center;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to My Premium Website
+    </header>
+    <section>
+        <h2>About This Site</h2>
+        <p>This website features a modern, colorful design with smooth animations and dynamic elements.</p>
+        <p>Feel free to contact us via <a href="https://wa.me/8801234567890">WhatsApp</a> for more information.</p>
+    </section>
+    <footer>
+        &copy; 2024 My Dynamic Website
+    </footer>
+</body>
+</html>
